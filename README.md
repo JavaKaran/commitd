@@ -25,7 +25,7 @@ Build healthy habits by showing yourself a motivational message, reminder, or ch
 npm install -g commitd
 ```
 
-That's it! Commitd automatically installs a global git hook and is ready to use.
+That's it! Commitd automatically installs and is ready to use.
 
 ## Usage
 
