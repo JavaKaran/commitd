@@ -19,11 +19,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/karansharma/commitd.git"
+    "url": "https://github.com/JavaKaran/commitd.git"
   },
-  "homepage": "https://github.com/karansharma/commitd#readme",
+  "homepage": "https://github.com/JavaKaran/commitd#readme",
   "bugs": {
-    "url": "https://github.com/karansharma/commitd/issues"
+    "url": "https://github.com/JavaKaran/commitd/issues"
   },
   "bin": {
     "commitd": "./bin/commitd.js"
