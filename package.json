@@ -1,0 +1,46 @@
+{
+  "name": "commitd",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Display beautiful reminders in your terminal after every git commit",
+  "main": "lib/hook.js",
+  "keywords": [
+    "git",
+    "commit",
+    "hook",
+    "reminder",
+    "terminal",
+    "cli",
+    "productivity",
+    "habits",
+    "motivation"
+  ],
+  "author": "Karan Sharma",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karansharma/commitd.git"
+  },
+  "homepage": "https://github.com/karansharma/commitd#readme",
+  "bugs": {
+    "url": "https://github.com/karansharma/commitd/issues"
+  },
+  "bin": {
+    "commitd": "./bin/commitd.js"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "postinstall": "node ./lib/postinstall.js"
+  },
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "commander": "^14.0.2",
+    "conf": "^15.0.2"
+  }
+}
